@@ -73,8 +73,11 @@ export default function Home() {
           Soliddarias
         </a>
       </h1>
-      <form className="w-full max-w-sm" onSubmit={handleLogin}>
-        <div className="my-6 flex flex-col">
+      <form
+        className="flex w-full max-w-sm flex-1 flex-col justify-center gap-6 pb-10"
+        onSubmit={handleLogin}
+      >
+        <div className="flex flex-col">
           <label className="mb-2" htmlFor="loginEmail">
             <EnvelopeIcon className="inline-block h-6 w-6" /> Correo
           </label>
@@ -85,7 +88,7 @@ export default function Home() {
             type="text"
           />
         </div>
-        <div className="my-6 flex flex-col">
+        <div className="flex flex-col">
           <label className="mb-2" htmlFor="loginPassword">
             <LockClosedIcon className="inline-block h-6 w-6" /> Contraseña
           </label>
@@ -96,7 +99,7 @@ export default function Home() {
             type="password"
           />
         </div>
-        <div className="my-7 flex flex-col">
+        <div className="flex flex-col">
           <button className="rounded bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">
             Entrar
           </button>
