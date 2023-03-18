@@ -20,7 +20,7 @@ const Dashboard = () => {
           <CalendarDaysIcon className="inline-block h-20 w-20" />
           Eventos
         </Link>
-        <Link href="#" className="flex w-1/2 flex-col items-center">
+        <Link href="/groups" className="flex w-1/2 flex-col items-center">
           <UserGroupIcon className="inline-block h-20 w-20" />
           Grupos
         </Link>
