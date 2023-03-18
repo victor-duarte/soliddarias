@@ -10,9 +10,9 @@ import Link from "next/link";
 const Dashboard = () => {
   return (
     <main className={styles.main}>
-      <h1 className="text-3xl font-bold underline">Dashboard</h1>
+      <h1 className="text-3xl font-bold underline">Escritorio</h1>
       <div className="mt-10 flex max-w-sm flex-wrap gap-y-8">
-        <Link href="#" className="flex w-1/2 flex-col items-center">
+        <Link href="/profile" className="flex w-1/2 flex-col items-center">
           <UserCircleIcon className="inline-block h-20 w-20" />
           Perfil
         </Link>
